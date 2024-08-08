@@ -1,0 +1,54 @@
+header{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+nav{
+    background-color: crimson;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.menu li{
+    margin: 1rem;
+    position: relative;
+}
+.menu a {
+    color: blanchedalmond;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.menu a:hover{
+    color: rgb(241, 232, 96);
+}
+.submenu-content{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: blueviolet;
+    z-index: 1;
+}
+.submenu:hover.submenu-content{
+    display: block;
+}
+main{
+    padding:2rem;
+}
+.department{
+    margin-bottom: 2rem;
+}
+footer {
+    text-align: center;
+    padding-left: 1rem 0;
+    background-color: rgba(181, 230, 90, 0.438);
+}
+.clginfo{
+    text-align:right;
+    margin: auto;
+}
